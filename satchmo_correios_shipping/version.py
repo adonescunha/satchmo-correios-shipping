@@ -9,7 +9,7 @@
 # Copyright (c) 2014 Adones Cunha adonescunha@gmail.com
 
 
-__version__ = (0, 1, 0)
+__version__ = (0, 1, 1)
 
 
 def to_str():

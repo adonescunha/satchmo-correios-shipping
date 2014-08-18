@@ -36,6 +36,6 @@ setup(
         'Topic :: Software Development :: Testing'
     ],
     install_requires=[
-       'correios_frete',
+       'correios-frete',
     ]
 )
