@@ -9,20 +9,20 @@
 # Copyright (c) 2014 Adones Cunha adonescunha@gmail.com
 
 
-from setuptools import setup
+__version__ = '0.1.2'
 
-from satchmo_correios_shipping import version
+from setuptools import setup
 
 
 setup(
     name='satchmo-correios-shipping',
-    version=version.to_str(),
+    version=__version__,
     description='Utility classes and functions to use Correios as shipping method on Satchmo.',
     author='Adones Cunha',
     author_email='adonescunha@gmail.com',
     url='https://github.com/adonescunha/satchmo-correios-shipping',
     packages=[
-        'satchmo-correios-shipping'
+        'satchmo_correios_shipping'
     ],
     classifiers=[
         'Development Status :: 1 - Planning',
@@ -36,6 +36,6 @@ setup(
         'Topic :: Software Development :: Testing'
     ],
     install_requires=[
-       'correios-frete',
+        'correios-frete',
     ]
 )
