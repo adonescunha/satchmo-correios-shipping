@@ -1,4 +1,4 @@
-# correios-frete
+# satchmo-correios-shipping
 
 Utility classes and functions to use Correios as shipping method on Satchmo.
 
